@@ -1,16 +1,9 @@
 import requests
 import streamlit as st
-from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title='Edwin Flores - Journey Vlog', layout='wide')
+st.set_page_config(page_title = 'Edwin Flores - Journey Vlog', layout = 'wide')
 
-def load_lottieurl(url):
-    r = requests.get(url)
-    if r.status_code != 200:
-        return None
-    return r.json()
-
-lottie_coding = load_lottieurl("https://lottie.host/95aed5c3-e2e5-4b51-84d7-e6b57f18e58b/Uz8Ra9ImHx.json")
+img_space_shuttle = 'Space Shuttle.png'
 img_contact_form = 'Ideal Rocket Equation_1.png'
 img_contact_form_2 = 'Ideal Rocket Equation_2.png'
 
@@ -36,7 +29,7 @@ with st.container():
                  """)
         st.write("[YouTube Channel >](https://youtube.com/@edw_flores10)")
     with right_column:
-        st_lottie(lottie_coding, height=200, key="coding")
+        st.image(img_space_shuttle, width = 600,)
 
 with st.container():
     st.write("---")
