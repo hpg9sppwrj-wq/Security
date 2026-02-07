@@ -60,4 +60,4 @@ with st.container():
                 calculator in Python to determine the mass ratio of a rocket based on your desired change in
                 velocity. This is part two of our aerospace engineering series using Python.
                  """)
-        st.markdown('[Watch Video >](https://www.youtube.com/watch?v=W7SyLYSv5NQ)')
+        st.markdown('[Watch Video >](https://www.youtube.com/watch?v=HQ-HRfb8Sn8)')
