@@ -2,7 +2,7 @@ import requests
 import streamlit as st
 from streamlit_lottie import st_lottie
 
-st.set_page_config(page_title='Edwin Flores - Life Vlog', layout='wide')
+st.set_page_config(page_title='Edwin Flores - Journey Vlog', layout='wide')
 
 def load_lottieurl(url):
     r = requests.get(url)
