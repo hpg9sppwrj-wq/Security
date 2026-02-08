@@ -6,6 +6,7 @@ st.set_page_config(page_title = 'Edwin Flores - Journey Vlog', layout = 'wide')
 img_space_shuttle = 'Space Shuttle.png'
 img_contact_form = 'Ideal Rocket Equation_1.png'
 img_contact_form_2 = 'Ideal Rocket Equation_2.png'
+img_contact_form_3 = 'Ideal Rocket Equation_3.png'
 
 st.subheader("Hi, I'm Edwin Flores :v:")
 st.title('An Aspiring Aerospace Engineer, Musician, and Life Vlogger')
@@ -57,7 +58,21 @@ with st.container():
         st.subheader('Aerospace for Python | Ideal Rocket Equation - Part 2')
         st.write("""
                 In this video, we continue our exploration of the Ideal Rocket Equation by implementing a
-                calculator in Python to determine the mass ratio of a rocket based on your desired change in
-                velocity. This is part two of our aerospace engineering series using Python.
+                calculator in Python to determine the fuel fraction of a rocket based on your desired change in
+                velocity. Stay tuned for more of this series!
                  """)
-        st.markdown('[Watch Video >](https://www.youtube.com/watch?v=HQ-HRfb8Sn8)')
+        st.markdown('[Watch Video >](https://youtu.be/kxLFOo2jb50)')
+
+with st.container():
+    image_column, text_column = st.columns((1,2))
+    with image_column:
+        st.image(img_contact_form_3)
+
+    with text_column:
+        st.subheader('Aerospace for Python | Ideal Rocket Equation - Part 3')
+        st.write("""
+                In this video, we wrap up the first half of this series on the Ideal Rocket Equation by programming
+                a calculator in Python to find the required engine efficiency or specific impulse of a rocket to achieve
+                a specific maximum theoretical speed.
+                """)
+        st.markdown('[Watch Video >](https://www.youtube.com/watch?v=scaiiCgdOr0)')
