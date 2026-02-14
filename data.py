@@ -5,8 +5,7 @@ st.set_page_config(page_title = 'Edwin Flores - Journey Vlog', layout = 'wide')
 
 img_space_shuttle = 'Space Shuttle.png'
 img_contact_form = 'Ideal Rocket Equation_1.png'
-img_contact_form_2 = 'Ideal Rocket Equation_2.png'
-img_contact_form_3 = 'Ideal Rocket Equation_3.png'
+img_contact_form_2 = 'Ideal Rocket Equation_4.png'
 
 st.subheader("Hi, I'm Edwin Flores :v:")
 st.title('An Aspiring Aerospace Engineer, Musician, and Life Vlogger')
@@ -43,8 +42,8 @@ with st.container():
     with text_column:
         st.subheader('Aerospace for Python | Ideal Rocket Equation - Part 1')
         st.write("""
-                In this video, we program a calculator in Python to find the change in velocity
-                of a rocket using the Ideal Rocket Equation. This is part one of a series on aerospace
+                In this video, we program a calculator in Python to find the change in velocity of 
+                a rocket using the Ideal Rocket Equation. This is part one of a series on aerospace
                 engineering concepts implemented in Python.
                  """)
         st.markdown('[Watch Video >](https://www.youtube.com/watch?v=f4-miRHYeEc)')
@@ -55,24 +54,10 @@ with st.container():
         st.image(img_contact_form_2)
 
     with text_column:
-        st.subheader('Aerospace for Python | Ideal Rocket Equation - Part 2')
+        st.subheader('Aerospace for Python | Ideal Rocket Equation - Part 4')
         st.write("""
-                In this video, we continue our exploration of the Ideal Rocket Equation by implementing a
-                calculator in Python to determine the fuel fraction of a rocket based on your desired change in
-                velocity. Stay tuned for more of this series!
+                In this video, we finish our exploration of the Ideal Rocket Equation and the pilot with
+                calculator in Python to determine the thrust/burn time of a rocket based on your desired 
+                rocket parameters. Stay tuned for more of!
                  """)
-        st.markdown('[Watch Video >](https://youtu.be/kxLFOo2jb50)')
-
-with st.container():
-    image_column, text_column = st.columns((1,2))
-    with image_column:
-        st.image(img_contact_form_3)
-
-    with text_column:
-        st.subheader('Aerospace for Python | Ideal Rocket Equation - Part 3')
-        st.write("""
-                In this video, we wrap up the first half of this series on the Ideal Rocket Equation by programming
-                a calculator in Python to find the required engine efficiency or specific impulse of a rocket to achieve
-                a specific maximum theoretical speed.
-                """)
-        st.markdown('[Watch Video >](https://www.youtube.com/watch?v=scaiiCgdOr0)')
+        st.markdown('[Watch Video >](https://www.youtube.com/watch?v=d68WeQ4DJJk)')
